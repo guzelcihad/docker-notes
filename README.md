@@ -55,6 +55,10 @@ Then build the file on locally:
 ```
 docker build . -f Dockerfile -t <image-name>
 ```
+or
+```
+docker build -t <image-name> .
+```
 
 Then push image to the registry
 ```
